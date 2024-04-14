@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalAutomation", "FinalAutomation\FinalAutomation.csproj", "{3BBADCA0-EAF2-416D-B441-850D984DE10E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagLabsTest", "SwagLabsTest\SwagLabsTest.csproj", "{B6F2B676-82F1-4617-820C-0EC14E4E4441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BBADCA0-EAF2-416D-B441-850D984DE10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBADCA0-EAF2-416D-B441-850D984DE10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBADCA0-EAF2-416D-B441-850D984DE10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBADCA0-EAF2-416D-B441-850D984DE10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F2B676-82F1-4617-820C-0EC14E4E4441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F2B676-82F1-4617-820C-0EC14E4E4441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F2B676-82F1-4617-820C-0EC14E4E4441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F2B676-82F1-4617-820C-0EC14E4E4441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BD868FC-BE9D-4B2F-A55E-BAA8C633EA0F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+{
+  "browser": "chrome",
+  "Environment": {
+    "Current": "HomePage",
+    "HomePage": "https://www.saucedemo.com/"
+  }
+}

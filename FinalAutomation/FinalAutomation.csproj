@@ -28,6 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Core\Loging\" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -42,4 +45,7 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Core\Loging\" />
+  </ItemGroup>
 </Project>

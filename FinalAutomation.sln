@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalAutomation", "FinalAut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagLabsTest", "SwagLabsTest\SwagLabsTest.csproj", "{B6F2B676-82F1-4617-820C-0EC14E4E4441}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileTest", "MobileTest\MobileTest.csproj", "{A21ADE94-AFCA-4635-914D-2BC2A6B1D7A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B6F2B676-82F1-4617-820C-0EC14E4E4441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6F2B676-82F1-4617-820C-0EC14E4E4441}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6F2B676-82F1-4617-820C-0EC14E4E4441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21ADE94-AFCA-4635-914D-2BC2A6B1D7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21ADE94-AFCA-4635-914D-2BC2A6B1D7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21ADE94-AFCA-4635-914D-2BC2A6B1D7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21ADE94-AFCA-4635-914D-2BC2A6B1D7A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

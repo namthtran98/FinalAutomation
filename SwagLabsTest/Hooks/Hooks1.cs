@@ -1,6 +1,9 @@
-﻿using FinalAutomation.Core.Configuration;
+﻿using Allure.Net.Commons;
+using FinalAutomation.Core.Configuration;
 using FinalAutomation.Core.Driver;
+using NPOI.HPSF;
 using OpenQA.Selenium;
+using Org.BouncyCastle.Crypto.Tls;
 using TechTalk.SpecFlow;
 
 namespace Swag_Labs_Test.Hooks
@@ -11,10 +14,12 @@ namespace Swag_Labs_Test.Hooks
         // For additional details on SpecFlow hooks see http://go.specflow.org/doc-hooks
         public IWebDriver driver;
         private readonly ScenarioContext scenarioContext;
+        private readonly AllureLifecycle allureLifecycle;
 
-        public Hooks1(ScenarioContext scenarioContext)
+        public Hooks1(ScenarioContext scenarioContext, AllureLifecycle allureLifecycle)
         {
             this.scenarioContext = scenarioContext;
+            this.allureLifecycle = allureLifecycle;
         }
 
         [BeforeScenario("@tag1")]
@@ -33,6 +38,22 @@ namespace Swag_Labs_Test.Hooks
         [AfterScenario]
         public void Dispose()
         {
+            //if (scenarioContext.ScenarioInfo.Tags.Contains("failed"))
+            //{
+            //    // Take screenshot when failed
+            //    var screenshot = ((ITakesScreenshot)this.driver).GetScreenshot();
+            //    var fileName = scenarioContext.ScenarioInfo.Title + "_screenshot_" + DateTime.Now.Ticks + ".png";
+            //    string pathName = "ScreenShot";
+            //    string path = Directory.GetCurrentDirectory() + pathName + fileName;
+            //    if (!Directory.Exists(pathName))
+            //    {
+            //        Directory.CreateDirectory(pathName);
+            //    }
+            //    screenshot.SaveAsFile(path, ScreenshotImageFormat.Png);
+            //    scenarioContext.Add("ScreenshotPath", path);
+            //    allureLifecycle.add(filename, "image/png", path);
+
+            //}
             //TODO: implement logic that has to run after executing each scenario
             if (scenarioContext["WebDriver"] is IWebDriver driver)
             {
